@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jadul Trading - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+
+    if (toggle && navbar) {
+      toggle.addEventListener('click', () => {
+        navbar.classList.toggle('show');
+      });
+    }
+  });
+</script>
+
+
+<body>
+  <header>
+    <img src="assets/ChatGPT Image Jul 20, 2025, 09_12_27 PM.png" alt="Jadula Trading Logo" class="logo">
+  
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Mining & Industrial Services & Supplies</h2>
+    <div>
+      <img src="assets/portable network grapghics.png" alt="assets/Heavy-Duty Hose" width="400" />
+      <p><strong>Heavy-Duty Hoses:</strong> Ideal for high-pressure mining operations.</p>
+    </div>
+    <div>
+      <img src="assets/spray control valves.png" alt="Control Valve" width="400" />
+      <p><strong>Control Valves:</strong> Precision flow solutions for industrial applications.</p>
+    </div>
+    <div>
+      <img src="assets/roquet control valves.png" alt="Control Valve" width="400" />
+      <p><strong>Control Valves:</strong> Precision flow solutions for industrial applications.</p>
+    </div>
+    <div>
+      <img src="assets/mine worker1.jpeg" alt="Product use" width="400" />
+      <p><strong>Sealing Products, Gearboxes, Pumps:</strong> We supply a range of components to fit your operational needs.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Jadula Trading</p>
+  </footer>
+</body>
+</html>
